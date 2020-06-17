@@ -27,7 +27,7 @@ namespace InternApp2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(options => options.UseSqlite("TodoList"));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite("Data Source=sqlite.db"));
             services.AddControllers();
         }
 
