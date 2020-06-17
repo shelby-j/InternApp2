@@ -10,5 +10,10 @@
     <PackageReference Include="sqlite" Version="3.13.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
 
 </Project>

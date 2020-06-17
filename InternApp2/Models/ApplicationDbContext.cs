@@ -13,7 +13,7 @@ namespace InternApp2.Models
             : base(options)
         {
         }
-        public DbSet<Models.TodoItem> TodoItems { get; set; }
+        public DbSet<RegisterSecurityQuestionsViewModel> user { get; set; }
     }
 
 
